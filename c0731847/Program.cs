@@ -10,7 +10,10 @@ namespace c0731847
     {
         static void Main(string[] args)
 
-        { }
+        {
+            elevator e = new elevator();
+            e.run();
+        }
             class Node
         {
             public Node() { }

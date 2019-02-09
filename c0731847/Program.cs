@@ -12,7 +12,7 @@ namespace c0731847
 
         {
             elevator e = new elevator();
-            e.run();
+            e.setup();
         }
             class Node
         {
@@ -22,13 +22,14 @@ namespace c0731847
             public string FloorNumber;
         }
         class elevator {
+            Node Head;
             Node FirstFloor;
             Node SecondFloor;
             Node ThirdFloor;
             Node FourthFloor;
            Node MainFloor;
 
-            public void run()
+            public void setup()
             {
                 FirstFloor = new Node();
                 SecondFloor = new Node();
@@ -46,6 +47,15 @@ namespace c0731847
 
 
                 Console.WriteLine("floor number is {0}", SecondFloor.FloorNumber);
+            }
+
+            public void traverselList()
+            {
+                while (true)
+                {
+
+                }
+
             }
         }
         }

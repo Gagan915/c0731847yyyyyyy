@@ -18,9 +18,14 @@ namespace c0731847
             class Node
         {
             public Node() { }
+            public Node linlkA;
            public Node floor;
            public Node elevatorUp;
             public string FloorNumber;
+        }
+        class Department
+        {
+            public Department adepartment;
         }
         class elevator {
             Node Head;

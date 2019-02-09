@@ -55,12 +55,16 @@ namespace c0731847
             public void traverselList()
             {
                 Node Temp;
+                Temp = Head;
                 Temp = Head.elevatorUp;
                 Console.WriteLine("The first floor is " + Head.FloorNumber);
-               while (true)
+                while(Temp!= null)
+           
               {
 
+                    Temp = Temp.elevatorUp;
 
+                    Console.WriteLine(Temp.FloorNumber);
 
 
                 }

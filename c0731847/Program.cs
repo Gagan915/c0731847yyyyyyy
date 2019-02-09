@@ -13,6 +13,7 @@ namespace c0731847
         {
             elevator e = new elevator();
             e.setup();
+            e.traverselList();
         }
             class Node
         {
@@ -35,6 +36,8 @@ namespace c0731847
                 SecondFloor = new Node();
                 ThirdFloor = new Node();
                 FourthFloor = new Node();
+                Head = new Node();
+
                 FirstFloor.FloorNumber = "First Floor";
                 Console.WriteLine("floor number is {0}", FirstFloor.FloorNumber);
                 FirstFloor.elevatorUp = SecondFloor;
@@ -51,8 +54,13 @@ namespace c0731847
 
             public void traverselList()
             {
-                while (true)
-                {
+                Node Temp;
+                Console.WriteLine("The first floor is " + Head.FloorNumber);
+               while (true)
+              {
+
+
+
 
                 }
 

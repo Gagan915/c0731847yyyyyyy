@@ -55,6 +55,7 @@ namespace c0731847
             public void traverselList()
             {
                 Node Temp;
+                Temp = Head.elevatorUp;
                 Console.WriteLine("The first floor is " + Head.FloorNumber);
                while (true)
               {
